@@ -84,3 +84,5 @@ git checkout -b nomeBranch --> crea un branch nuovo
 git checkout nameOfExistingBranch --> switch tra branch
 
 Attenzione ai merge conflict
+
+FORKING
