@@ -71,3 +71,12 @@ Ogni conflic ha un codice hash univico , per risolvere un merge conflict dobbiam
 
 git log --> ci riporta tutti i commit fatti sul progetto , data e messaggio
 git reset --hard hashCode --> cancella un commit fatto
+
+BRANCHING
+
+Nel caso in cui noi dobbiamo lavorare su delle nuove feature del nostro progetto e nel mentre che lavoriamo ci accorgiamo che sui primi commit c'è uin bug tornare indietro sarà difficile per questo possiamo creare un nuovo "branch" / "linea" la prima sarà master dove abbiamo il nostro codice corretto e la seconda sarà feature dove abbiamo le nostre nuove feature
+quindi possiamo lavorare separatamente su due diversi branch e quando abbiamo risolto il bug possiamo branchare / unire più branch ( merge )
+
+git branch --> ci dice in che branch ci troviamo e quanti ce ne sono
+
+git checkout -b nomeBranch --> crea un branch nuovo
