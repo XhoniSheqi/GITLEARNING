@@ -69,4 +69,5 @@ DOMANI MATTINA --> Merge Conflict
 Quando facciamo una dichiarazione sul nostro progetto locale e idem un nostro collab. e le due modifiche collidono avviene ciò che chiamiamo merge conflict
 Ogni conflic ha un codice hash univico , per risolvere un merge conflict dobbiamo semplicemente scegliere tra una delle due parti e cancellare il resto e pushare
 
-git log --> ci riporta tutti i commit fatti sul progetto
+git log --> ci riporta tutti i commit fatti sul progetto , data e messaggio
+git reset --hard hashCode --> cancella un commit fatto
