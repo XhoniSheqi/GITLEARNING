@@ -80,3 +80,7 @@ quindi possiamo lavorare separatamente su due diversi branch e quando abbiamo ri
 git branch --> ci dice in che branch ci troviamo e quanti ce ne sono
 
 git checkout -b nomeBranch --> crea un branch nuovo
+
+git checkout nameOfExistingBranch --> switch tra branch
+
+Attenzione ai merge conflict
